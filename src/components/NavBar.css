@@ -1,0 +1,14 @@
+.Nav{
+    background-color: black;
+    
+}
+
+.Text{
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+    margin: auto;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    list-style: none;
+}
