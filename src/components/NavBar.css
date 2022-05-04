@@ -1,14 +1,29 @@
 .Nav{
-    background-color: black;
+    display: flex;
+    justify-content: center;
+    background-color: gray;
     
 }
 
+.Nav :hover{
+    background-color: rgb(100, 94, 94);
+}
+
 .Text{
-    display: flex;
-    justify-content: center;
-    color: antiquewhite;
-    margin: auto;
-    width: 100%;
+    display: block;
+    background-color: black;
+    color: blanchedalmond;
+    text-decoration: none;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
     font-family: 'Lato', sans-serif;
     list-style: none;
+}
+
+.img{
+    height: auto;
+    width: auto;
+    max-width: 40px;
+    max-height: 40px;
 }
