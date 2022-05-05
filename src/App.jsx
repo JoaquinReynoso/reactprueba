@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/NavBar';
 import Titulo from './components/Titulo/titulo';
+import itemListContainer from './components/itemListContainer';
 
 function App() {
   const tit = 'Soy titulo de algo'
@@ -10,6 +11,8 @@ function App() {
     <div className="App">
       <Titulo titulo={ tit }/>
       <NavBar/>
+      <itemListContainer greeting="Hola soy ItemListContainer"/>
+      
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

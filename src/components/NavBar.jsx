@@ -10,7 +10,7 @@ function NavBar() {
               <li className="Text">FOTOS</li>
               <li className="Text">CONTACTO</li>
               <li className="Text">AYUDA</li>
-              <li><CartWidget greeting='Hola soy algo' /></li>
+              <li><CartWidget/></li>
           </ul>
       </div>
     );
